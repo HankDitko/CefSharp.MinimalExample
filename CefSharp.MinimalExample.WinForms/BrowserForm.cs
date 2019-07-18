@@ -9,7 +9,7 @@ using CefSharp.WinForms;
 
 namespace CefSharp.MinimalExample.WinForms
 {
-    public partial class BrowserForm : Form
+    public partial class BrowserForm : WeifenLuo.WinFormsUI.Docking.DockContent
     {
         private readonly ChromiumWebBrowser browser;
 
